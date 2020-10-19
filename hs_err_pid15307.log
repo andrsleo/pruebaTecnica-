@@ -1,0 +1,21 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f289e449231, pid=15307, tid=15339
+#
+# JRE version: OpenJDK Runtime Environment (14.0.2+12) (build 14.0.2+12-46)
+# Java VM: OpenJDK 64-Bit Server VM (14.0.2+12-46, mixed mode, sharing, tiered, compressed oops, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libjimage.so+0x4231]  ImageStrings::find(Endian*, char const*, int*, unsigned int)+0x71
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/share/apport/apport %p %s %c %d %P %E" (or dumping to /home/andres/Descargas/product/core.15307)
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:44893 -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=36735 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=localhost -Dspring.jmx.enabled=true -Dspring.liveBeansView.mbeanDomain -Dspring.application.admin.enabled=true -Djava.security.egd=file:/dev/./urandom -Xverify:none -XX:TieredStopAtLevel=1 -Dspring.boot.project.name=produtServices -javaagent:/home/andres/MyEclipse CI/configuration/org.eclipse.osgi/883/0/.cp/lib/javaagent-shaded.jar -Dfile.encoding=UTF-8 com.test.product.ProdutServicesApplication
+
+Host: 
